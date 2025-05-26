@@ -147,7 +147,7 @@ class ConfluenceConverter extends PandocHTML implements IOutputAwareInterface {
 		}
 
 		if ( isset( $this->config['config']['mainpage'] ) ) {
-			$this->mainpage = $this->advancedConfig['mainpage'];
+			$this->mainpage = $this->config['mainpage'];
 		}
 
 		$bodyContentId = $this->getBodyContentIdFromFilename();
